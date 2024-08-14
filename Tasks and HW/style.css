@@ -40,3 +40,7 @@ button:hover {
 ul {
     font-size: 20px;
 }
+li {
+    text-align:inherit
+    color: rgb(152, 227, 114);
+}
