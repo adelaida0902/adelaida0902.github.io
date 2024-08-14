@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,13 @@
 </div>
 
 
-      <a href="Tasks and HW/index.html">My tasks</a>
+      
     <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
         <img src="/adelaida0902.github.io/images/Screenshot 2024-08-13 035538.png" alt="Logo" class="w-28 cursor-pointer mr-14">
         <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm
         bg-opacity-50">
             <li><a href="#top">Home</a></li>
             <li><a href="#about">About me</a></li>
-            <li><a href="#services">Services</a></li>
             <li><a href="#work">My work</a></li>
             <li><a href="#contact">Contact me</a></li>  
         </ul>
@@ -46,7 +45,6 @@
  
     <li><a href="#top" onclick="closeMenu()">Home</a></li>
     <li><a href="#about" onclick="closeMenu()">About me</a></li>
-    <li><a href="#services" onclick="closeMenu()">Services</a></li>
     <li><a href="#work" onclick="closeMenu()">My work</a></li>
     <li><a href="#contact" onclick="closeMenu()">Contact me</a></li>  
  </ul>
@@ -56,7 +54,7 @@
     <!-- header                    -->
      <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center
      justify-center gap-4">
-        <img src="/adelaida0902.github.io/images/" alt="" class="rounded-full w-32 ">
+        <img src="/adelaida0902.github.io/images/IMG_6007.JPEG" alt="" class="rounded-full w-32 ">
         <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3"> Hi! I'm Adelaida Isaeva <img src="./images/images/hand-icon.png" alt="" class="w-6">
         </h3>
         <h1 class="text-3xl sm:text -6xl lg:text -[66px]">Software development engineer in test based in USA.</h1>
@@ -68,27 +66,68 @@
         </div>
      </div> 
 
-     <div id="about" class="w-full px-[12%] py-10">
+     <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg">Introduction</h4>
         <h2 class="text-center text-5xl">About me</h2>
       <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div class="max-w-m mx-auto relative">
-            <img src="./images/IMG_6007.JPEG" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none" >
+            <img src="/adelaida0902.github.io/images/IMG_6007.JPEG" alt="" class="w-64 sm:w-80 
+            rounded-3xl max-w-none" >
         </div>
         <div class="flex-1">
             <p class="mb-10 max-w-2xl">“I'm a software engineer who constantly seeks out innovative solutions to everyday problems.
                 I've honed my analytical thinking and collaboration skills, and I love working with a team."</p>
-            <ul>
+            <ul class="grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl">
                 <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] 
                 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
-                    <img src="./images/images/code-icon.png" alt="" class="w-7 mt-3">
+                    <img src="/adelaida0902.github.io/images/code-icon.png" alt="" class="w-7 mt-3">
                     <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
                     <p class="text-gray-600 text-sm">JavaScript, CSS, HTML</p>
+                </li>
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] 
+                hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                    <img src="/adelaida0902.github.io/images/project-icon.png" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-700">Strengths</h3>
+                    <p class="text-gray-600 text-sm">Ihquisitive, always learning something new</p>
+                </li>
+            </ul>
+            <h4 class="my-6 text-gray-700">Tools I use</h4>
+            <ul class="flex items-center gap-3 sm:gap-5">
+                <li class="flex items-center justify-center w-12 sm:w-14
+                aspect-square border border-gray-400 rouded-lg cursor-pointer
+                hover:-translate-y-1 duration-500">
+                    <img src="/adelaida0902.github.io/images/vscode.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14
+                aspect-square border border-gray-400 rouded-lg cursor-pointer
+                hover:-translate-y-1 duration-500">
+                    <img src="/adelaida0902.github.io/images/git.png" alt="" class="w-5 sm:w-7">
+                </li>
+            < -->
                 </li>
             </ul>
 
         </div>
       </div>
+     </div>
+     <!-- my work -->
+     <div id="work" class="w-full px-[12%] py-10 scroll-mt-20">
+        <h4 class="text-center mb-2 text-lg ">My portfolio</h4>
+        <h2 class="text-center text-5xl">My latest work</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12">Welcome to my wed portfolio! Here a collection of my
+             works.</p>
+             <div class="grid-cols-4 my-10 gap-5">
+                <div class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] 
+                hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000] text-center text-2xl">
+                   <a href="Tasks and HW/index.html">My tasks</a>
+                </div>
+                <div class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] 
+                hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000] text-center text-2xl">
+                  <a href="Tasks and HW/index.html">Home works</a>
+               </div>
+
+             </div>
+
      </div>
     <script src="index.js"></script>
 </body>
