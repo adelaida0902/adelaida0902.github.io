@@ -38,7 +38,7 @@ function renderTasks() {
 
   tasks.forEach(({ id, status, title }) => {
     const li = `<li>
-  <span># ${id}</span> 
+  <span> ${id}</span> 
   <span>${title}</span> 
    <span>${status}</span> 
   <button id=${id}>Delete</button>

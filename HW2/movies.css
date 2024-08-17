@@ -1,0 +1,119 @@
+
+main{ display: flex;
+    gap: 20px;
+
+}
+section{
+    border: 1px solid black;
+    width: 70%;
+}
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.movie-container:hover {
+    transform: scale(1.05);
+}
+
+.movie-container img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.movie-container p{
+    font-weight: bold;
+    color: #333;
+}
+.movie-container p.overview{
+    margin: 5px 0;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+}
+
+.movie-container p.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #444;
+
+}
+.movie-container button{
+   color: rgb(203, 203, 211);
+   margin-bottom: -1px;
+   border-radius: 4px;
+background-color: #008cba;
+font-weight: bold;
+font-size: 16px;
+}
+.favorite-container {
+    font-weight: bold;
+    font-size: 20px;
+    color: #444;
+}
+.favorite-container button{
+    color: rgb(203, 203, 211);
+    margin-bottom: -1px;
+    border-radius: 4px;
+ background-color: #008cba;
+ font-weight: bold;
+ font-size: 16px;
+ }
+.movie-container p.id{
+    visibility: hidden;
+}
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin: 20px 0;
+}
+aside{
+    border: 1px solid black;
+    width: 30%;
+}
+h2{
+    text-align: center;
+}
+.favorite-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.favorite-container:hover {
+    transform: scale(1.05);
+}
+.favoriteList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
